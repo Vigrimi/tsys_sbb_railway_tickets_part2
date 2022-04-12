@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ping Pong WS</title>
+    <script type="text/javascript" src="/js/websocket.js"></script>
+</head>
+<body>
+
+<div>
+    <!--поле ввода текста для отправки из фронта ping-->
+    <textarea id="message" style="width:300px" placeholder="your message"></textarea>
+    <button id="ping" onclick="ping();">Ping</button>  <!--в onclick функция ping()-->
+</div>
+<div>
+    <!--получение данных во фронт с сервера pong-->
+    <h3>Messages</h3>
+    <div id="stack">
+        <!--из js по функции экшн здесь будет создаваться новый параграф <p></p>-->
+    </div> <!--сюда складывать все приходящие по вэбсокету данные-->
+</div>
+
+</body>
+</html>

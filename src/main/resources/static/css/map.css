@@ -1,0 +1,31 @@
+/*неа*/
+/*http://mapeurope.ru/wp-content/uploads/karta-shveitsarii-podrobnaya.jpg   !!!! sbb*/
+/*https://i.pinimg.com/originals/e7/79/3c/e7793ce305a370931e9dd2ac048d740d.gif*/
+
+/*https://zeitreisen.zeit.de/wp-content/uploads/2017/01/grand-train-tour-karte-vereinfacht-1.jpg  !!*/
+/*https://suissebook.ch/images/2018/06/Schweiz_Schaetzen-1560x819.png !!*/
+/*https://readtravel.ru/wp-content/uploads/2019/12/Zurich_train-routes.jpg*/
+/*https://i0.wp.com/varlamov.me/2016/trains/22.JPG*/
+/*https://public.mishka.travel/images/mini/6354.gif   !!!!!!!!!!*/
+/*https://miro.medium.com/max/1200/1*kzYeHtvYEKPtggTIfL_L-A.jpeg   !!*/
+
+/*https://img4.tourbina.ru/photos.4/8/3/8/0/5/1050838/big.photo/eto-na-vsyakiy-slutchay-foto.jpg*/
+/*https://www.geopoesia.ru/gp/map/admin/switzerland-map-admin.jpg*/
+/*https://www.travel-pix.ca/images/switzerland/switz-route-map-553.jpg*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /*min-width: 100vh;*/
+    background:url(https://zeitreisen.zeit.de/wp-content/uploads/2017/01/grand-train-tour-karte-vereinfacht-1.jpg);
+    /*background: linear-gradient(to bottom, #99ffff, #e8ccff);*/
+    /*background-size: cover;*/
+    background-size: 100% 100%;
+}
